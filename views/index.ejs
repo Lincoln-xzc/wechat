@@ -1,0 +1,55 @@
+<%include header.ejs%>
+
+
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+      <%include menu.ejs%>
+      <!-- BEGIN PAGE -->
+      <div class="page-content">
+        <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+        <div id="portlet-config" class="modal hide">
+          <div class="modal-header">
+            <button data-dismiss="modal" class="close" type="button"></button>
+            <h3>Widget Settings</h3>
+          </div>
+          <div class="modal-body">
+            Widget settings form goes here
+          </div>
+        </div>
+        <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+        <!-- BEGIN PAGE CONTAINER-->
+        <div class="container-fluid">
+          <!-- BEGIN PAGE HEADER-->
+          <div class="row-fluid">
+            <div class="span12">
+
+              <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+              <h3 class="page-title">
+                Dashboard <small>statistics and more</small>
+              </h3>
+              <ul class="breadcrumb">
+                <li>
+                  <i class="icon-home"></i>
+                  <a href="index.ejs">Home</a>
+                  <i class="icon-angle-right"></i>
+                </li>
+                <li><a href="#">Dashboard</a></li>
+              </ul>
+              <!-- END PAGE TITLE & BREADCRUMB-->
+            </div>
+          </div>
+          <!-- END PAGE HEADER-->
+          <div id="dashboard">
+            <!-- BEGIN DASHBOARD STATS -->
+
+                <!-- END PORTLET-->
+
+
+          </div>
+        </div>
+        <!-- END PAGE CONTAINER-->
+      </div>
+      <!-- END PAGE -->
+    </div>
+
+<%include footer.ejs%>
